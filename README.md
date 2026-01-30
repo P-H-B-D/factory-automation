@@ -27,3 +27,5 @@ Upload to web server:
 - `assets/` folder
 
 No backend required :)
+
+Thank you to [Josh Purtell](https://github.com/JoshuaPurtell/liter) for inspiration and conversations always. 
