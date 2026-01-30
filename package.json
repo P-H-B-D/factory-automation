@@ -1,0 +1,17 @@
+{
+  "name": "wasm_exploration",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "build:wasm": "wasm-pack build --target web",
+    "build:ts": "tsc",
+    "build:copy": "cp -r pkg dist/",
+    "build": "npm run build:wasm && npm run build:ts && npm run build:copy",
+    "dev": "npm run build && python3 -m http.server 8000",
+    "deploy:prepare": "npm run build && echo 'Build complete! Files ready for deployment in: index.html, style.css, fusion-pixel.ttf, dist/, assets/, .htaccess'"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

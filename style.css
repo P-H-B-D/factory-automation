@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Fusion Pixel';
+    src: url('fusion-pixel.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    font-family: 'Fusion Pixel', Arial, sans-serif;
+}
+
+#game-container {
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid #333;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#game-canvas {
+    display: block;
+    background-color: #2a2a2a;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+

@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+target/
+dist/
+pkg/
+*.wasm
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
