@@ -1,5 +1,7 @@
 # Factory Building Game
 
+![Screenshot](Screenshot.png)
+
 Factory building game. Rust backend compiled to WASM, rendering on browser via vanilla TS, HTML, CSS. Trivially convertible to TUI / headless. Long to-do list of functionality. Hypothetically performant enough to serve as an RL environment. 
 
 Functioning now: 
